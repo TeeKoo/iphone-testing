@@ -31,7 +31,9 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        //self.detailDescriptionLabel.text = [self.detailItem description];
+        UIImage *img = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[self.detailItem description]]]];
+        self.instagramDetail.image = img;
     }
 }
 

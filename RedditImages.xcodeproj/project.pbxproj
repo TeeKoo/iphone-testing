@@ -22,6 +22,7 @@
 		7A69D912194A2DE80087C8CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A69D8F1194A2DE80087C8CF /* UIKit.framework */; };
 		7A69D91A194A2DE80087C8CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A69D918194A2DE80087C8CF /* InfoPlist.strings */; };
 		7A69D91C194A2DE80087C8CF /* RedditImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69D91B194A2DE80087C8CF /* RedditImagesTests.m */; };
+		7A69D928194A2E2A0087C8CF /* RIImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69D927194A2E2A0087C8CF /* RIImages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7A69D917194A2DE80087C8CF /* RedditImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditImagesTests-Info.plist"; sourceTree = "<group>"; };
 		7A69D919194A2DE80087C8CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A69D91B194A2DE80087C8CF /* RedditImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditImagesTests.m; sourceTree = "<group>"; };
+		7A69D926194A2E2A0087C8CF /* RIImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIImages.h; sourceTree = "<group>"; };
+		7A69D927194A2E2A0087C8CF /* RIImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImages.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		7A69D8F3194A2DE80087C8CF /* RedditImages */ = {
 			isa = PBXGroup;
 			children = (
+				7A69D925194A2E0E0087C8CF /* Model */,
 				7A69D8FC194A2DE80087C8CF /* RIAppDelegate.h */,
 				7A69D8FD194A2DE80087C8CF /* RIAppDelegate.m */,
 				7A69D8FF194A2DE80087C8CF /* Main.storyboard */,
@@ -155,6 +159,15 @@
 				7A69D918194A2DE80087C8CF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A69D925194A2E0E0087C8CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A69D926194A2E2A0087C8CF /* RIImages.h */,
+				7A69D927194A2E2A0087C8CF /* RIImages.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 				7A69D907194A2DE80087C8CF /* RIDetailViewController.m in Sources */,
 				7A69D904194A2DE80087C8CF /* RIMasterViewController.m in Sources */,
 				7A69D8FA194A2DE80087C8CF /* main.m in Sources */,
+				7A69D928194A2E2A0087C8CF /* RIImages.m in Sources */,
 				7A69D8FE194A2DE80087C8CF /* RIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
